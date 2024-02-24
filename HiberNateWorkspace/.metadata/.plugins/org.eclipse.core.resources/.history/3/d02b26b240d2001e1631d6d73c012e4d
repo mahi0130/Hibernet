@@ -1,0 +1,17 @@
+package in.co.rays.hql;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class TestHQLAll {
+
+	public static void main(String[] args) {
+
+		SessionFactory sf = new Configuration().configure().buildSessionFactory();
+		Session session = sf.openSession();
+		Query q = session.createQuery("from UserDTO");
+	}
+
+}

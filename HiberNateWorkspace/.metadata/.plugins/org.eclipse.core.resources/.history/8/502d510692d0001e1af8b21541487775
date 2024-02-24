@@ -1,0 +1,13 @@
+package UserDTOpractice;
+
+import org.hibernate.cfg.Configuration;
+
+public class UserModel {
+	
+	public void add(UserDTO dto) {
+		new Configuration().configure().build
+		
+	}
+	
+
+}

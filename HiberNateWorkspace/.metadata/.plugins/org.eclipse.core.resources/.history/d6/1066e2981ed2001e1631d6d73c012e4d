@@ -1,0 +1,11 @@
+package in.co.rays.hql;
+
+
+
+
+public class TestHQLAll {
+	public static void main(String[] args) {
+		
+	}
+
+}

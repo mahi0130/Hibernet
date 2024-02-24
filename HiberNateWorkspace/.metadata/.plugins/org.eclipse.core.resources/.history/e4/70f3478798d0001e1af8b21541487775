@@ -1,0 +1,27 @@
+package in.co.rays.auction;
+
+public class AuctionItem {
+	private int id;
+	private String bids;
+	private String description;
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getBids() {
+		return bids;
+	}
+	public void setBids(String bids) {
+		this.bids = bids;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
+
+}

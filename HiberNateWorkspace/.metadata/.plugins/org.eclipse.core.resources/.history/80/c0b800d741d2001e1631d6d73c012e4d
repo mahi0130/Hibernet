@@ -1,0 +1,26 @@
+package in.co.rays.dto;
+
+import java.util.Iterator;
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class TestHQLAll {
+	public static void main(String[] args) {
+
+		SessionFactory sf = new Configuration().configure().buildSessionFactory();
+		Session session = sf.openSession();
+		Query q = session.createQuery("from UserDTO");
+		List list = q.list();
+		Iterator it = list.iterator();
+		UserDTO dto = null;
+		while (it.hasNext()) {
+			dto = new UserDTO();
+			System.out.println(dto.getFirstName());
+		}
+		session.close();
+	}
+}
