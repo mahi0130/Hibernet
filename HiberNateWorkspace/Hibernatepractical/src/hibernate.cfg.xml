@@ -14,8 +14,8 @@
 		<property name="show_sql">true</property>
 
 
-	 <mapping resource="in/co/rays/dto/UserDTO.hbm.xml" /> 
-		<!-- <mapping resource="in/co/rays/UserDTO/UserDTO.hbm.xml" />  -->
+	<!--  <mapping resource="in/co/rays/dto/UserDTO.hbm.xml" /> --> 
+		 <mapping resource="in/co/rays/UserDTO/UserDTO.hbm.xml" /> 
 		<!-- <mapping resource="in/co/rays/auction/AuctionItem.hbm.xml" /> -->
 		<!-- <mapping resource="in/co/rays/auction/Bid.hbm.xml" /> -->
 		<!-- <mapping resource="in/co/rays/oneone/Address.hbm.xml"/> <mapping resource="in/co/rays/oneone/Employee.hbm.xml"/> -->
